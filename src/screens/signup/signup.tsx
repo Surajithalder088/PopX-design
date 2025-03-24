@@ -89,7 +89,7 @@ const signinHandler=()=>{
          <div className="buttonS">
        {
         email==="" ||password===""||name==="" ||phone===""?(
-           <Link to='/profile'> <button className="login-b" onClick={signinHandler}>Create Account</button></Link>
+            <button className="login-b" onClick={signinHandler}>Create Account</button>
         ):(
           <Link to='/profile'> <button className="login-b1" onClick={signinHandler}>Create Account</button></Link>
         )

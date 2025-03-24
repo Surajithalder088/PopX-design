@@ -51,7 +51,7 @@ const Login = () => {
        <div className="button">
        {
         email==="" ||password===""?(
-           <Link to='/profile'> <button className="login-b" onClick={loginHandler}>Login</button></Link>
+            <button className="login-b" onClick={loginHandler}>Login</button>
         ):(
           <Link to='/profile'> <button className="login-b1" onClick={loginHandler}>Login</button></Link>
         )
